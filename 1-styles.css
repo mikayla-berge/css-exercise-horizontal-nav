@@ -1,0 +1,54 @@
+body{
+    background-color: #fff;
+}
+
+code{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 950px;
+}
+
+.header{
+    background-color: #dedede;
+    border: 3px double gray;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.menu{
+    background-color: silver;
+    border: 1px solid gray;
+}
+
+.link-list{
+    display: flex;
+    list-style-type:none;
+    padding: 0;
+    margin: 15px 0px;
+}
+
+.main-content{
+    background-color: #dedede;
+    border: 3px double rgb(128, 128, 128);
+    padding: 10px;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: black;
+    padding: 15px 20px;
+}
+
+.current{
+    background-color: gray;
+    color: white;
+}
+
+a:hover{
+    background-color: dimgray;
+    color: white;
+}

@@ -1,0 +1,48 @@
+html{
+    background-color:azure;
+}
+
+.header{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.wrapper{
+    border: 3px solid rgb(195, 195, 255);
+    margin: 0 auto;
+    width: 950px;
+    background-color:lightblue;
+}
+
+.main-content{
+    background-color:aliceblue;
+    padding:10px;
+}
+
+.menu{
+    margin: 0 auto;
+}
+
+.link-list{
+    display: flex;
+    justify-content: space-between;
+    list-style-type:none;
+    padding: 0;
+    margin: 0px;
+}
+
+.link{
+    background-color: #709bd7;
+    color: darkblue;
+    text-decoration: none;
+    padding: 5.5px 70px;
+}
+
+.current{
+    background-color: azure;
+}
+
+a:hover{
+    background-color:rgba(170, 182, 182, 0.8);
+}
